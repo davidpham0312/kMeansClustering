@@ -1,0 +1,21 @@
+Instructions:
+
+Open Ternminal 
+Change the directory to the current one (kMeansClustering) 
+Give the command sbt
+When sbt shows prompt '>' give it command eclipse
+
+Open Scala IDE, choose File -> Import
+Choose General -> Existing Projects into Workspace and press Next.
+Navigate to kMeansClustering and press Open
+Press Finish
+
+Right click the project name -> Properties 
+Choose Scala Compiler from the left. 
+Select Use Project Settings. 
+Choose Fixed Scala Installation -> 2.11.11.
+
+The implementation file is at the directory src/main/scala/assignment21/assignment.scala
+
+Run the file for the first time: Run -> Run As -> ScalaTest-File
+Leter: Run As -> ScalaTest-Suite
